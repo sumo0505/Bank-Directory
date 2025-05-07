@@ -17,17 +17,27 @@
 
     <!-- css link -->
     <link rel="stylesheet" href="/assets/index.css">
+
+    <!-- aos link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Bank Directory</title>
 </head>
 
 <body>
     <header>
+        
         <nav class="navbar">
+            <div data-aos="fade-up"
+            data-aos-duration="3000">
             <div class="lo-icon">
                 <i class="fa-solid fa-piggy-bank"></i>
                 <h1>Bank Directory</h1>
             </div>
+            </div>
+            
             <div>
+                <div data-aos="fade-up"
+                data-aos-duration="3000">
                 <ul class="nav-links">
                     <li>
                         <a href="#">Home</a>
@@ -39,9 +49,12 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
+                </div>
+                
             </div>
         </nav>
     </header>
+    
     <section class="hero-section">
         <div class="hero-content">
             <h1>Welcome to the Bank Directory</h1>
@@ -49,12 +62,15 @@
                 Find a list of reputable banks from various countries, presented with their
                 name and country for your convenience.
             </p>
-            
+            <div data-aos="fade-up"
+            data-aos-duration="3000">
             <button class="animated-button">
                 <span class="text">View Banks</span>
                 
                 <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
             </button>
+            </div>
+            
             
 
         </div>
@@ -63,51 +79,57 @@
         <div class="art-text">
             <h1>Top Banks Around The World</h1>
         </div>
-            <div class="art-cont">
-                <div class="over-box">
-                    <div class="art-subtext">
-                        <i class="fa-solid fa-building-columns"></i>
-                        <h1>JPMorgan Chase</h1>
-                    </div>
-                    <div>
-                        <p>One of the largest and most reputable banks in the United States, offering a wide range of
-                            financial services.</p>
-                    </div>
-    
+        <div data-aos="fade-up"
+        data-aos-duration="3000">
+        <div class="art-cont">
+            <div class="over-box">
+                <div class="art-subtext">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h1>JPMorgan Chase</h1>
                 </div>
-                <div class="over-box">
-                    <div class="art-subtext">
-                        <i class="fa-solid fa-building-columns"></i>
-                        <h1>HSBC</h1>
-                    </div>
-                    <div>
-                        <p>A global financial leader headquartered in the UK, serving millions of customers worldwide.</p>
-                    </div>
-    
-    
+                <div>
+                    <p>One of the largest and most reputable banks in the United States, offering a wide range of
+                        financial services.</p>
                 </div>
-                <div class="over-box">
-                    <div class="art-subtext">
-                        <i class="fa-solid fa-building-columns"></i>
-                        <h1>Deutsche Bank</h1>
-                    </div>
-                    <div>
-                        <p>Germany's largest banking institution, providing investment, corporate, and retail banking
-                            solutions.</p>
-                    </div>
+
+            </div>
+            <div class="over-box">
+                <div class="art-subtext">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h1>HSBC</h1>
                 </div>
-                <div class="over-box">
-                    <div class="art-subtext">
-                        <i class="fa-solid fa-building-columns"></i>
-                        <h1>First Bank of Nigeria</h1>
-                    </div>
-                    <div>
-                        <p>One of the oldest and most trusted banks in Nigeria, serving millions of customers with top
-                            financial solutions.</p>
-                    </div>
+                <div>
+                    <p>A global financial leader headquartered in the UK, serving millions of customers worldwide.</p>
+                </div>
+
+
+            </div>
+            <div class="over-box">
+                <div class="art-subtext">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h1>Deutsche Bank</h1>
+                </div>
+                <div>
+                    <p>Germany's largest banking institution, providing investment, corporate, and retail banking
+                        solutions.</p>
                 </div>
             </div>
+            <div class="over-box">
+                <div class="art-subtext">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h1>First Bank of Nigeria</h1>
+                </div>
+                <div>
+                    <p>One of the oldest and most trusted banks in Nigeria, serving millions of customers with top
+                        financial solutions.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+           
             <div class="out-box">
+                <div data-aos="fade-up"
+                data-aos-duration="3000">
                 <div class="over-box">
                     <div class="art-subtext">
                         <i class="fa-solid fa-credit-card"></i>
@@ -118,6 +140,8 @@
                         </p>
                     </div>
                 </div>
+                </div>
+                
             </div>
     </section>
     <footer>
@@ -135,7 +159,10 @@
         </div>
 
     </footer>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
