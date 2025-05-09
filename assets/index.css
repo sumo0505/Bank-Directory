@@ -283,6 +283,9 @@ footer{
         margin-bottom: 18px;
         text-align: center;
     }
+    .art-cont{
+        gap: 22px;
+    }
     
 }
 @media screen and (min-width: 1114px){
